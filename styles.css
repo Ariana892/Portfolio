@@ -1,0 +1,73 @@
+/* Variables de color */
+:root {
+  --rojo: #e10600;
+  --blanco: #ffffff;
+  --gris-claro: #f4f4f4;
+  --gris-oscuro: #333333;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--gris-claro);
+  margin: 0;
+  padding: 0;
+  color: var(--gris-oscuro);
+}
+
+header {
+  background-color: var(--rojo);
+  color: var(--blanco);
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--blanco);
+  border-radius: 8px;
+}
+
+section h2 {
+  color: var(--rojo);
+}
+
+.proyecto {
+  background-color: var(--gris-claro);
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #2200e1;
+
+}
+
+.proyecto h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: var(--rojo);
+  color: var(--blanco);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
